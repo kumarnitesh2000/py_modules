@@ -4,7 +4,7 @@ import os
 
 s=socket.socket()
 #this is localhost
-host="192.168.43.245"
+host=<your-ip>
 port=8080
 s.connect((host,port))
 
